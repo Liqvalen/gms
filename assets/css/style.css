@@ -83,6 +83,10 @@ body {
 .nav-item-link{
     text-decoration: none;
     color: white;
+    transition: all .5s;
+}
+.nav-item-link:hover{
+    color: #383636;
 }
 ul{
     padding-inline-start: 0px;
@@ -202,6 +206,10 @@ a{
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
+    transition: all .5s;
+}
+.catalog-btn-more:hover{
+    color: #383636;
 }
 .fa-info-circle{
     margin-top: 6px;
@@ -253,22 +261,23 @@ a{
     transition: all .5s;
 }
 .item-more-btn:hover{
-    color: #111;
+    color: #383636;
 }
 .item-buy-btn{
     color: white;
     transition: all .5s;
 }
 .catalog-item-more{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 13px;
     transition: all .5s;
 }
 .catalog-item-more:hover{
-    color: #111;
+    color: #383636;
 }
 .fa-info{
     padding-right: 5px;
+    padding-left: 5px;
 }
 .fa-shopping-cart{
     padding-right: 5px;
@@ -277,21 +286,77 @@ a{
     transition: all .5s;
 }
 .catalog-item-buy:hover{
-    color: #111;
+    color: #383636;
 }
 .item-buy-btn:hover{
-    color: #111;
+    color: #383636;
 }
 .catalog-item-name{
     margin-top: 15px;
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 15px;
+}
+/* /Catalog */
+/* Footer */
+.footer{
+    background-color: #4F963A;
+    height: 200px;
+}
+.footer-nav{
+    padding-top: 10px;
     margin-bottom: 20px;
+}
+.footer-text{
+    font-size: 14px;
+    padding-top: 10px;
+    color: white;
+    width: 300px;
+}
+.footer-end{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contacts-phone{
+    color: #333;
+    font-size: 29px;
+    
+}
+.footer-phone-item{
+    margin-top: 7px;
+}
+.footer-phone-item span{
+    color: #fff;
+}
+.footer-mail{
+    color: white;
+    font-size: 25px;
+}
+.footer-where{
+    color: white;
+    margin-top: 10px;
+}
+.fa-envelope{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.fa-map-marker-alt{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 
-/* /Catalog */
 
+/* /Footer */
 
 
 
