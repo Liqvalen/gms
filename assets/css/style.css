@@ -91,6 +91,10 @@ body {
 ul{
     padding-inline-start: 0px;
 }
+h2{
+    margin: 0;
+    padding: 0;
+}
 p{
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -206,10 +210,10 @@ a{
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
-    transition: all .5s;
+    transition: all .5s; 
 }
 .catalog-btn-more:hover{
-    color: #383636;
+    color: #383636; 
 }
 .fa-info-circle{
     margin-top: 6px;
@@ -261,7 +265,7 @@ a{
     transition: all .5s;
 }
 .item-more-btn:hover{
-    color: #383636;
+    color: #383636; 
 }
 .item-buy-btn{
     color: white;
@@ -270,10 +274,10 @@ a{
 .catalog-item-more{
     margin-top: 20px;
     margin-bottom: 13px;
-    transition: all .5s;
+    transition: all .5s; 
 }
 .catalog-item-more:hover{
-    color: #383636;
+    color: #383636; 
 }
 .fa-info{
     padding-right: 5px;
@@ -283,13 +287,13 @@ a{
     padding-right: 5px;
 }
 .catalog-item-buy{
-    transition: all .5s;
+     transition: all .5s;  
 }
 .catalog-item-buy:hover{
-    color: #383636;
+    color: #383636;  
 }
 .item-buy-btn:hover{
-    color: #383636;
+    color: #383636; 
 }
 .catalog-item-name{
     margin-top: 15px;
@@ -353,10 +357,38 @@ a{
     font-size: 30px;
     font-weight: 300;
 }
-
-
-
 /* /Footer */
+
+/* Locаtion */
+.location{
+    background-color: #cfcfcb;
+    height: 60px;
+}
+.fa-arrow-right{
+    color: black;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.location-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+.location-now{
+    color: #4F963A;
+    font-weight: 700;
+    padding-left: 21px;
+    font-size: 23px;
+}
+.to-main{
+    color: #111;
+    padding-right: 21px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+/* /Locаtion */
 
 
 
