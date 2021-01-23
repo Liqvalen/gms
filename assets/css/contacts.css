@@ -1,15 +1,6 @@
 .contacts{
   background-color: #ECECEC;
 }
-.contacts-form{
-  width: 700px;
-  height: 320px;
-  background-color: #f5f5f5;
-  border: 1px #353232 solid;
-  padding: 20px;
-  margin-top: 150px;
-  border-radius: 5px;
-}
 .contacts-wrapper{
   display: flex;
   justify-content: space-between;
@@ -37,47 +28,12 @@
   padding-bottom: 15px;
   color: rgb(121, 121, 121);
 }
+.geolocation{
+  width: 100%;
+  height: 300px;
+}
 .contacts-list{
   padding-bottom: 25px;
   display: flex;
   flex-direction: column;
-}
-.form-input{
-  border: 1px #666 solid;
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-.form-input-c{
-  border: 1px #666 solid;
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  margin-left: 140px;
-}
-.form-input:focus{
-  border: 1px #666 solid;
-}
-.form-input-c:focus{
-  border: 1px #666 solid;
-}
-.form-btn{
-  color: #333;
-  border: 1px #666 solid;
-  background-color:#f5f5f5;;
-  padding: 10px 20px;
-  margin-left: 190px;
-}
-.form-input-b{
-  padding: 30px 100px;
-  margin-left: 60px;
-  margin-bottom: 20px;
-}
-.form-input-b:focus{
-  border: 1px #666 solid;
-}
-.geolocation{
-  width: 100%;
-  height: 300px;
 }
