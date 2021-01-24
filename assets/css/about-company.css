@@ -1,4 +1,34 @@
-.about-company-text{
-  margin: 50px 0px;
+.about-company-text {
+  margin: 50px 20px;
   font-size: 29px;
+}
+
+@media (max-width: 600px) {
+  .about-company-text {
+    font-size: 25px;
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  .about-company-text {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 490px) {
+  .about-company-text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px){
+.about-company-text {
+    font-size: 17px;
+}
+}
+@media (max-width: 380px){
+  .about-company-text {
+  font-size: 15px;
+  margin: 10px 10px;
+  }
 }

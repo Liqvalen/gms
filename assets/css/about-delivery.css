@@ -1,5 +1,30 @@
 .about-delivery-text{
   font-size: 29px;
-  margin: 90px 0px;
-  width: 1190px;
+  margin: 50px 50px;
+  width: auto;
 }
+@media (max-width: 1024px){
+  .about-delivery-text{
+    font-size: 26px;
+    margin: 35px 35px;
+  }
+}
+@media (max-width: 812px){
+  .about-delivery-text {
+  font-size: 24px;
+  margin: 25px 35px;
+}
+}
+@media (max-width: 667px){
+  .about-delivery-text {
+  font-size: 22px;
+  margin: 21px 22px;
+}
+}
+@media (max-width: 568px){
+    .about-delivery-text {
+    font-size: 20px;
+    margin: 21px 22px;
+  }
+}
+
