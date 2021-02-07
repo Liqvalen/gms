@@ -1396,8 +1396,8 @@ a {
     .menu__btn {
         display: flex;
         align-items: center;
-        position: fixed;
-        top: 102px;
+        position: sticky;
+        padding-top: 11px;
         left: 20px;
         width: 23px;
         height: 26px;
@@ -1692,6 +1692,9 @@ a {
 }
 
 @media (max-width: 400px) {
+    .catalog-items {
+        padding-left: 0px;
+    }
     .header-main-title {
         font-size: 14px;
     }
@@ -1790,6 +1793,12 @@ a {
 }
 
 @media (max-width: 359px) {
+    .form-input {
+        width: 300px;
+    }
+    .form-input-c {
+        width: 300px;
+    }
     .intro-inner-wrapper {
         margin-left: 3px;
         height: 105px;
