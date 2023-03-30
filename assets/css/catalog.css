@@ -1,0 +1,227 @@
+.choose-category-item {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #4F963A;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+/* .choose-category-item:nth-child(7) {
+    margin-bottom: 0px;
+}
+
+.choose-category-item:nth-child(8) {
+    margin-bottom: 0px;
+}
+
+.choose-category-item:nth-child(9) {
+    margin-bottom: 0px;
+}
+
+.choose-category-item:nth-child(3) {
+    margin-right: 0px;
+}
+
+.choose-category-item:nth-child(6) {
+    margin-right: 0px;
+}
+
+.choose-category-item:nth-child(9) {
+    margin-right: 0px;
+} */
+.category-item-name-s {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    transition: all .5s;
+    margin-top: 0px;
+}
+.choose-categories-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0px;
+    margin-left: 180px;
+}
+
+.category-item-name {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    transition: all .5s;
+    margin-top: 10px;
+}
+.category-item-lowercaseName{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    transition: all .5s;
+    margin-top: 1px;
+}
+
+.category-item-img {
+    border-radius: 5px;
+}
+
+.category-image {
+    width: 250px;
+}
+
+.category-item-name:hover {
+    color: #383636;
+}
+.category-item-lowercaseName:hover {
+    color: #383636;
+}
+
+@media (max-width: 1100px) {
+    .choose-categories-items {
+        margin-left: 112px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .choose-categories-items {
+        margin: 35px 0px;
+        margin-left: 65px;
+    }
+}
+
+@media (max-width: 925px) {
+    .choose-categories-items {
+        margin: 35px 0px;
+        margin-left: 41px;
+    }
+}
+
+@media (max-width: 880px) {
+    .choose-category-item:nth-child(2) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(8) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(3) {
+        margin-right: 45px;
+    }
+
+    .choose-category-item:nth-child(7) {
+        margin-bottom: 20px;
+    }
+
+    .choose-categories-items {
+        margin-left: 154px;
+    }
+}
+
+@media (max-width: 800px) {
+    .choose-categories-items {
+        margin-left: 117px;
+    }
+}
+
+@media (max-width: 720px) {
+    .choose-categories-items {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 670px) {
+    .choose-categories-items {
+        margin: 25px 0px;
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 645px) {
+    .choose-categories-items {
+        margin-left: 30px;
+    }
+
+    .choose-category-item:nth-child(2) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(8) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    .choose-categories-items {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 554px) {
+    .choose-categories-items {
+        margin-left: 150px;
+    }
+
+    .choose-category-item:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(5) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(7) {
+        margin-right: 0px;
+    }
+
+    .choose-category-item:nth-child(8) {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .choose-categories-items {
+        margin-left: 121px;
+    }
+}
+
+@media (max-width: 450px) {
+    .choose-categories-items {
+        margin-left: 95px;
+    }
+}
+
+@media (max-width: 400px) {
+    .choose-categories-items {
+        margin-left: 75px;
+    }
+}
+
+@media (max-width: 375px) {
+    .choose-categories-items {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 350px) {
+    .choose-categories-items {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .choose-categories-items {
+        margin-left: 35px;
+    }
+}
