@@ -1,0 +1,65 @@
+{
+  "menu": [
+    {
+      "img": "assets/images/popul.png",
+      "altimg": "kaliy",
+      "name": "Калий йодистый",
+      "hrefMore": "#",
+      "hrefBuy": "#",
+      "price": "2747 руб.",
+      "parent": ".catalog .container .catalog-items"
+    },
+    {
+      "img": "assets/images/popul.png",
+      "altimg": "kaliy",
+      "name": "Калий йодистый",
+      "hrefMore": "#",
+      "hrefBuy": "#",
+      "price": "2747 руб.",
+      "parent": ".catalog .container .catalog-items"
+    },
+    {
+      "img": "assets/images/popul.png",
+      "altimg": "kaliy",
+      "name": "Калий йодистый",
+      "hrefMore": "#",
+      "hrefBuy": "#",
+      "price": "2747 руб.",
+      "parent": ".catalog .container .catalog-items"
+    },
+    {
+      "img": "assets/images/popul.png",
+      "altimg": "kaliy",
+      "name": "Калий йодистый",
+      "hrefMore": "#",
+      "hrefBuy": "#",
+      "price": "2747 руб.",
+      "parent": ".catalog .container .catalog-items"
+    },
+    {
+      "img": "assets/images/popul.png",
+      "altimg": "kaliy",
+      "name": "Калий йодистый",
+      "hrefMore": "#",
+      "hrefBuy": "#",
+      "price": "2747 руб.",
+      "parent": ".catalog .container .catalog-items"
+    },
+    {
+      "img": "assets/images/popul.png",
+      "altimg": "kaliy",
+      "name": "Калий йодистый",
+      "hrefMore": "#",
+      "hrefBuy": "#",
+      "price": "2747 руб.",
+      "parent": ".catalog .container .catalog-items"
+    }
+  ],
+  "requests": [
+    {
+      "name": "4312",
+      "phone": "4123",
+      "id": 1
+    }
+  ]
+}

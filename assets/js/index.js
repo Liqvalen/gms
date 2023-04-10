@@ -1,9 +1,9 @@
 //class
 window.addEventListener('DOMContentLoaded', () =>{
     class MenuCard{
-        constructor(src, alt, name, hrefMore, hrefBuy, price, parentSelector){
-            this.src = src
-            this.alt = alt
+        constructor(img, altimg, name, hrefMore, hrefBuy, price, parentSelector){
+            this.img = img
+            this.altimg = altimg
             this.name = name
             this.hrefMore = hrefMore
             this.hrefBuy = hrefBuy
@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () =>{
             // }
             element.innerHTML = `
             <div class="catalog-item">
-                <img src=${this.src} alt=${this.alt} class="catalog-item-image">
+                <img src=${this.img} alt=${this.altimg} class="catalog-item-image">
                 <div class="catalog-second-wrapper">
                     <p class="catalog-item-name">${this.name}</p>
                     <p class="catalog-item-price">Цена: <span>${this.price}</span></p>
@@ -38,58 +38,14 @@ window.addEventListener('DOMContentLoaded', () =>{
             this.parent.append(element)
         }
     }
-    new MenuCard(
-        'assets/images/popul.png',
-        'kaliy',
-        'Калий йодистый',
-        '#',
-        '#',
-        '2747 руб.',
-        '.catalog .container .catalog-items'
-    ).render()
-    new MenuCard(
-        'assets/images/popul.png',
-        'kaliy',
-        'Калий йодистый',
-        '#',
-        '#',
-        '2747 руб.',
-        '.catalog .container .catalog-items'
-    ).render()
-    new MenuCard(
-        'assets/images/popul.png',
-        'kaliy',
-        'Калий йодистый',
-        '#',
-        '#',
-        '2747 руб.',
-        '.catalog .container .catalog-items'
-    ).render()
-    new MenuCard(
-        'assets/images/popul.png',
-        'kaliy',
-        'Калий йодистый',
-        '#',
-        '#',
-        '2747 руб.',
-        '.catalog .container .catalog-items'
-    ).render()
-    new MenuCard(
-        'assets/images/popul.png',
-        'kaliy',
-        'Калий йодистый',
-        '#',
-        '#',
-        '2747 руб.',
-        '.catalog .container .catalog-items'
-    ).render()
-    new MenuCard(
-        'assets/images/popul.png',
-        'kaliy',
-        'Калий йодистый',
-        '#',
-        '#',
-        '2747 руб.',
-        '.catalog .container .catalog-items'
-    ).render()
+    axios.get('http://localhost:3000/menu')
+    // parent problem
+    .then(data => {
+        data.data.forEach(({img, altimg, name, hrefMore, hrefBuy, price, parent}) => {
+            new MenuCard(img, altimg, name, hrefMore, hrefBuy, price, parent).render()
+        })
+    })
+    fetch('http://localhost:3000/menu')
+    .then(data => data.json())
+    .then(res => console.log(res))
 })

@@ -98,13 +98,11 @@
                     <div class="contacts-subtitle contacts-list">3. Копия платежного поручения</div>   
                 </div>
             </div>
-
-
             <form class="contacts-form">
-                <input class="form-input" type="text" placeholder="Имя" aria-required="true" aria-invalid="true">
-                <input class="form-input" type="text" placeholder="Телефон" aria-required="true" aria-invalid="true">
-                <input class="form-input-c" type="text" placeholder="E-mail" aria-required="true" aria-invalid="true">
-                <textarea id="contact-text" class="form-input-b" placeholder="Текст сообщения" aria-required="true" aria-invalid="true" maxlength="500" resize="none"></textarea>
+                <input required class="form-input" type="text" name="name" placeholder="Имя" aria-required="true" aria-invalid="true">
+                <input required class="form-input" type="phone" name="phone" placeholder="Телефон" aria-required="true" aria-invalid="true">
+                <input required class="form-input-c" name="mail" type="text" placeholder="E-mail" aria-required="true" aria-invalid="true">
+                <textarea id="contact-text" class="form-input-b" name="text" placeholder="Текст сообщения" aria-required="true" aria-invalid="true" maxlength="500" resize="none"></textarea>
                 <button class="form-btn">Отправить</button>
             </form>
 
@@ -157,6 +155,7 @@
         </div>
     </div>
 </div>
+<script src="assets/js/contacts.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>
