@@ -1,0 +1,79 @@
+{
+    "menu": [
+        {
+        "img": "assets/images/catalog/img-1.png",
+        "altimg": "Индикаторы",
+        "href": "#",
+        "name": "Индикаторы",
+        "bigTxt": "category-item-name",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-2.png",
+        "altimg": "Кислоты",
+        "href": "#",
+        "name": "Кислоты",
+        "bigTxt": "category-item-name",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-3.png",
+        "altimg": "Пищевая химия для производств",
+        "href": "#",
+        "name": "Пищевая химия для производств",
+        "bigTxt": "category-item-lowercaseName",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-4.png",
+        "altimg": "Стандарт-титры",
+        "href": "#",
+        "name": "Стандарт-титры",
+        "bigTxt": "category-item-name",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-5.png",
+        "altimg": "Техническая химия",
+        "href": "#",
+        "name": "Техническая химия",
+        "bigTxt": "category-item-name",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-6.png",
+        "altimg": "Фармацевтическая химия и пищевые добавки",
+        "href": "#",
+        "name": "Фармацевтическая химия и пищевые добавки",
+        "bigTxt": "category-item-lowercaseName",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-7.png",
+        "altimg": "Фильтровальная и индикаторная бумага",
+        "href": "#",
+        "name": "Фильтровальная и индикаторная бумага",
+        "bigTxt": "category-item-lowercaseName",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-8.png",
+        "altimg": "Химические реактивы",
+        "href": "#",
+        "name": "Химические реактивы",
+        "bigTxt": "category-item-name",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        },
+        {
+        "img": "assets/images/catalog/img-9.png",
+        "altimg": "Химия ГСО",
+        "href": "#",
+        "name": "Химия ГСО",
+        "bigTxt": "category-item-name",
+        "parent": ".dirictory .container .choose-category-images .choose-categories-items"
+        }
+    ],
+    "requests": [
+        
+    ]
+}
