@@ -1741,8 +1741,80 @@ a {
         width: 334px;
     }
 }
+@media (max-width: 400px) {
+    .catalog-items {
+        padding-left: 0px;
+    }
+    .header-main-title {
+        font-size: 14px;
+    }
 
+    .header-main-subtitle {
+        font-size: 10px;
+    }
+
+    .header-descr {
+        margin-top: 22px;
+    }
+
+    .header-phone-item {
+        font-size: 13px;
+    }
+
+    .footer-text {
+        width: 205px;
+    }
+
+    .footer-contacts-phone {
+        display: none;
+    }
+}
 @media (max-width: 376px) {
+    .header__call{
+        background-color: #4CAF50; 
+        border-radius: 12px;
+        width: 84px;
+        height: 41px;
+        display: flex;
+        margin-top: 19px;
+        border: 1px solid black;
+    }
+    .header-descr {
+        margin-top: 10px;
+        width: 84px;
+    }
+    .header-main-subtitle {
+        font-size: 9px;
+    }
+    .header-main-title {
+        font-size: 13px;
+    }
+    .header-main-logo {
+        height: 60px;
+        margin-top: 7px;
+        width: 60px;
+    }
+    .header-contacts {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .header__call-img{
+        font-size: 15px;
+        padding: 12px 0px 0px 7px;
+    }
+    .header__call-btn {
+        width: 117px;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        border-radius: 12px;
+        line-height: 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        padding: 0;
+    }
     .form-input {
         margin-left: 0px;
     }
@@ -1796,36 +1868,6 @@ a {
         margin-left: 40px;
     }
 }
-
-@media (max-width: 400px) {
-    .catalog-items {
-        padding-left: 0px;
-    }
-    .header-main-title {
-        font-size: 14px;
-    }
-
-    .header-main-subtitle {
-        font-size: 10px;
-    }
-
-    .header-descr {
-        margin-top: 22px;
-    }
-
-    .header-phone-item {
-        font-size: 13px;
-    }
-
-    .footer-text {
-        width: 205px;
-    }
-
-    .footer-contacts-phone {
-        display: none;
-    }
-}
-
 @media (max-width: 374px) {
     .header-contacts {
         margin-right: 0px;
